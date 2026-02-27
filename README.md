@@ -10,7 +10,13 @@ brew tap jcechace/tap
 
 ## Available Formulae
 
-*No formulae available yet.*
+| Formula | Description |
+|---------|-------------|
+| [pbmate](https://github.com/jcechace/pbmate) | TUI companion for Percona Backup for MongoDB |
+
+```bash
+brew install pbmate
+```
 
 ## Updating
 
