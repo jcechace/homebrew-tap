@@ -3,7 +3,7 @@ cask "pbmate" do
   name "pbmate"
   desc "TUI companion for Percona Backup for MongoDB"
   homepage "https://github.com/jcechace/pbmate"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,18 +14,18 @@ cask "pbmate" do
   on_macos do
     on_arm do
       url "https://github.com/jcechace/pbmate/releases/download/v#{version}/pbmate_#{version}_darwin_arm64.tar.gz"
-      sha256 "17cf38507d9aff90b0d14d22daea26053202a7bd13cb38162acd5e18a4c6b1da"
+      sha256 "ecbfe79c497833d1207dd98bd9878aeba02f9c5292eb5ea38605cb7331a49abe"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jcechace/pbmate/releases/download/v#{version}/pbmate_#{version}_linux_amd64.tar.gz"
-      sha256 "9ea974586b49aa9fafe9d6c98905c606a7bef2f67da1506079ab4ee2f821ae01"
+      sha256 "3b4eb22313da369a00c551d10685b629eaf830dba5217b50b29b67df14847ba7"
     end
     on_arm do
       url "https://github.com/jcechace/pbmate/releases/download/v#{version}/pbmate_#{version}_linux_arm64.tar.gz"
-      sha256 "f530a622173eeacb46ae2d3a0d35b4a41cb6a40898e8c29bfc9e131233dcb42c"
+      sha256 "3d0d44082ea7434b569ed430c96a55b14821c3d8d607b276cbdf49c052a0ea96"
     end
   end
 
